@@ -2,6 +2,7 @@
 // by POST request
 
 module.exports = x => {
+	console.log('Process payload') 
 	console.log(`Recieved ${x}`)
 	return x
 }
