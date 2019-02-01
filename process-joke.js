@@ -3,8 +3,9 @@
 
 module.exports = x => {
 	console.log('Process payload')
-	var out = JSON.stringify(x);
-	var uppercase = out.toUpperCase(); 
-	console.log(`Recieved ${uppercase}`)
+	var out = JSON.stringify(x)
+	console.log(`Recieved ${out}`)
+	var uppercase = out.toUpperCase()
+	console.log(`Processed data ${uppercase}`)
 	return uppercase 
 }
